@@ -9,12 +9,6 @@ body, html {
   background-size: cover;
 }
 
-/*Background image from CSS tricks (https://css-tricks.com/perfect-full-page-background-image/)*/
-
-/*We can do this purely through CSS thanks to the background-size property now in CSS. 
-We’ll use the html element (better than body as it’s always at least the height of the browser window). 
-We set a fixed and centered background on it, then adjust it’s size using background-size set to the cover keyword.*/
-
 h1 {
 	font-size: 3rem;
 	color: #c8cdd3;
@@ -49,8 +43,6 @@ hr {
 	border-width: 4px;
 }
 
-/*our own created class, not a bootstrap*/
-/*and because the name of the class points to a size of the button we will use it just for that and use other classes for other purposes*/
 .btn-lx {
 	padding: 1rem 2rem;
 }
