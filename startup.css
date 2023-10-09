@@ -1,0 +1,56 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; /*this line does the trick*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Background image from CSS tricks (https://css-tricks.com/perfect-full-page-background-image/)*/
+
+/*We can do this purely through CSS thanks to the background-size property now in CSS. 
+We’ll use the html element (better than body as it’s always at least the height of the browser window). 
+We set a fixed and centered background on it, then adjust it’s size using background-size set to the cover keyword.*/
+
+h1 {
+	font-size: 3rem;
+	color: #c8cdd3;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 2px solid #E25E3E;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px; 
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #E25E3E;
+	border-color: #E25E3E;
+}
+
+.btn-primary:hover {
+	background-color: #FC4F00;
+	border-color: #FC4F00;
+	border-width: 4px;
+}
+
+/*our own created class, not a bootstrap*/
+/*and because the name of the class points to a size of the button we will use it just for that and use other classes for other purposes*/
+.btn-lx {
+	padding: 1rem 2rem;
+}
